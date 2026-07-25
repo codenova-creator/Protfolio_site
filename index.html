@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasadi Upeshika | Portfolio</title>
+    <meta name="description" content="Portfolio of Liyanapathiranage Sasadi Upeshika — a multifaceted professional bridging Information Technology, Behavioral Sciences, Business Management, and Legal Studies.">
+    <meta name="keywords" content="Sasadi Upeshika, Portfolio, IT, Information Technology, BSc, HND, Cybersecurity, Psychology, Business Management">
+    <meta name="author" content="Liyanapathiranage Sasadi Upeshika">
+    <meta property="og:title" content="Sasadi Upeshika | Portfolio">
+    <meta property="og:description" content="A multifaceted professional bridging Information Technology, Behavioral Sciences, Business Management, and Legal Studies.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Lily Canvas Background -->
+    <canvas id="lily-canvas" aria-hidden="true"></canvas>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-spa"></i>
+            <span>Sasadi.</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about" data-section="about">About</a></li>
+            <li><a href="#education" data-section="education">Education</a></li>
+            <li><a href="#diplomas" data-section="diplomas">Diplomas</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#diplomas">Diplomas</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <!-- Profile Photo -->
+            <div class="profile-photo-wrapper animate-on-scroll">
+                <div class="profile-photo">
+                    <img src="profile.png" alt="Sasadi Upeshika — Graduation Portrait">
+                </div>
+            </div>
+
+            <div class="badge animate-on-scroll">
+                <i class="fa-solid fa-seedling"></i> Welcome to My Portfolio
+            </div>
+            <h1 class="animate-on-scroll">Liyanapathiranage<br><span>Sasadi Upeshika</span></h1>
+            <p class="animate-on-scroll">A multifaceted professional bridging Information Technology, Behavioral Sciences, Business Management, and Legal Studies.</p>
+            <div class="cta-buttons animate-on-scroll">
+                <a href="#contact" class="btn btn-primary" id="cta-contact">
+                    <i class="fa-solid fa-paper-plane"></i> Get in Touch
+                </a>
+                <a href="#education" class="btn btn-secondary" id="cta-education">
+                    <i class="fa-solid fa-graduation-cap"></i> Qualifications
+                </a>
+            </div>
+
+            <!-- Stats Counters -->
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2">0</span>
+                    <span class="stat-label">Degrees</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Diplomas</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="6">0</span>
+                    <span class="stat-label">Domains</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <div class="container">
+
+        <!-- Degree Highlights -->
+        <section id="education">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Foundation</div>
+                <h2>Higher Education</h2>
+                <p>Core academic qualifications in Information Technology</p>
+            </div>
+            <div class="degree-grid">
+                <div class="degree-card animate-on-scroll">
+                    <div class="degree-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>BSc Hons in Information Technology</h3>
+                    <p>Comprehensive specialization in technology, software development, systems analysis, and modern tech solutions.</p>
+                    <div class="degree-tags">
+                        <span class="tag">Software Dev</span>
+                        <span class="tag">Systems Analysis</span>
+                        <span class="tag">Tech Solutions</span>
+                    </div>
+                </div>
+                <div class="degree-card animate-on-scroll">
+                    <div class="degree-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3>HND in Information Technology</h3>
+                    <p>Higher National Diploma focusing on core IT infrastructure, computer science fundamentals, and practical software engineering.</p>
+                    <div class="degree-tags">
+                        <span class="tag">Infrastructure</span>
+                        <span class="tag">Computer Science</span>
+                        <span class="tag">Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Decorative Lily Feature Interlude -->
+        <div class="lily-feature animate-on-scroll">
+            <div class="lily-feature-image">
+                <img src="lily-flowers.png" alt="Beautiful pink lily flowers" loading="lazy">
+            </div>
+            <div class="lily-feature-text">
+                <h3><i class="fa-solid fa-spa"></i> Blooming Wisdom & Knowledge</h3>
+                <p>Much like a serene lily garden blooming with elegance and grace, continuous learning and personal development allow us to flourish across diverse fields—from technical sciences to human care and leadership.</p>
+            </div>
+        </div>
+
+        <!-- Diplomas Section -->
+        <section id="diplomas">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag"><i class="fa-solid fa-award"></i> Professional Development</div>
+                <h2>Diplomas & Certifications</h2>
+                <p>Extensive multidisciplinary expertise across varied domains</p>
+            </div>
+
+            <div class="diploma-grid">
+                <div class="diploma-card animate-on-scroll" data-category="behavioral">
+                    <div class="diploma-icon"><i class="fa-solid fa-brain"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Psychology and Counseling</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="management">
+                    <div class="diploma-icon icon-teal"><i class="fa-solid fa-users-gear"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>HRM & Administration Law</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="language">
+                    <div class="diploma-icon icon-amber"><i class="fa-solid fa-language"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>English Language</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="behavioral">
+                    <div class="diploma-icon icon-indigo"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Sociology & Research Methodology</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="tech">
+                    <div class="diploma-icon icon-emerald"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Cyber Security & Ethical Hacking</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="language">
+                    <div class="diploma-icon icon-rose"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Japanese Teaching as a Foreign Language</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="management">
+                    <div class="diploma-icon icon-cyan"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Marketing Management</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="management">
+                    <div class="diploma-icon icon-violet"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Business Management</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="legal">
+                    <div class="diploma-icon icon-slate"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Law & Administration Studies</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="legal">
+                    <div class="diploma-icon icon-red"><i class="fa-solid fa-handcuffs"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Criminology</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="management">
+                    <div class="diploma-icon icon-orange"><i class="fa-solid fa-house-chimney-crack"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Disaster Management</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+
+                <div class="diploma-card animate-on-scroll" data-category="behavioral">
+                    <div class="diploma-icon icon-pink"><i class="fa-solid fa-child"></i></div>
+                    <div class="diploma-info">
+                        <span>Diploma</span>
+                        <h4>Child Counseling</h4>
+                    </div>
+                    <div class="diploma-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-card animate-on-scroll">
+                <!-- Floating decorative orbs -->
+                <div class="contact-orb orb-1" aria-hidden="true"></div>
+                <div class="contact-orb orb-2" aria-hidden="true"></div>
+                <div class="contact-orb orb-3" aria-hidden="true"></div>
+
+                <h2>Let's Connect</h2>
+                <p>Feel free to reach out for collaborations, inquiries, or professional networking.</p>
+
+                <div class="contact-details">
+                    <a href="mailto:sasadiupeshika@iclud.com" class="contact-item" id="contact-email">
+                        <div class="contact-icon-wrap">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">sasadiupeshika@iclud.com</div>
+                        </div>
+                    </a>
+
+                    <a href="tel:+94767911486" class="contact-item" id="contact-phone">
+                        <div class="contact-icon-wrap">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Mobile</div>
+                            <div class="contact-value">+94 76 791 1486</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-spa"></i> Sasadi.
+            </div>
+            <p>&copy; 2026 Liyanapathiranage Sasadi Upeshika. All rights reserved.</p>
+            <div class="footer-decoration" aria-hidden="true">
+                <span>🌸</span><span>🌿</span><span>🌸</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
